@@ -14,6 +14,12 @@ header{
     position: absolute;
 }
 
+.clear-fix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
 .logo{
     width: calc(10% - 20px);
     vertical-align: middle;
@@ -35,10 +41,11 @@ li{
 .btn{
     background-color: #0061ff;
     padding: 8px 17px;
+    color: white;
 }
 
 h1{
-    font-size: 80px;
+    font-size: 77px;
 }
 
 /* Header */
@@ -46,7 +53,7 @@ h1{
     position: fixed;
     width: 100%;  
     background-color: white;
-    padding: 30px;
+    padding: 25px 20px;
 }
 
 .clear-fix::after{
@@ -66,7 +73,6 @@ h1{
 a{
     color: black;
     text-decoration: none;
-    font-weight:500;
 }
 
 #left ul li a{
@@ -74,22 +80,50 @@ a{
 }
 
 
-#right li:last-child a{
-    color: white;
-}
-
 #right li a{
     margin-left: 45px ;
 }
 
 .page-1{
-    height: 80vh;
+    height: 85vh;
     background-color: #b4d0e7;
+    margin: auto
 }
 
 .hero{
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 110px;
+    margin-bottom: 70px;
 }
 
+
+i{
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.text{
+    float: left;
+}
+
+.text{
+    width: 40%;
+}
+
+.img-jumbo img{
+    width: 55%;
+    float: left;
+}
+
+.hero > h1{
+    margin-bottom: 40px;
+}
+
+.hero p:first-of-type{
+    margin-bottom: 35px;       
+}
+
+.hero p:last-of-type{
+    margin-top: 25px;       
+}
