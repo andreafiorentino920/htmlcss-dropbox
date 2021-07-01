@@ -11,7 +11,7 @@ body{
 }
 
 header{
-    padding: 25px 0 30px 20px;
+    position: absolute;
 }
 
 .logo{
@@ -43,7 +43,10 @@ h1{
 
 /* Header */
 .container-menu{
+    position: fixed;
     width: 100%;  
+    background-color: white;
+    padding: 30px;
 }
 
 .clear-fix::after{
