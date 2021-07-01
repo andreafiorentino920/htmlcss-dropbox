@@ -9,3 +9,69 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+
+header{
+    padding: 25px 0 30px 20px;
+}
+
+.logo{
+    width: calc(10% - 20px);
+    vertical-align: middle;
+}
+
+li{
+    display: inline-block;
+}
+
+
+.main-nav{
+    width: 45%;
+}
+
+.main-nav, .logo{
+    float: left;
+}
+
+.btn{
+    background-color: #0061ff;
+    padding: 8px 17px;
+}
+
+/* Header */
+.container{
+    width: 100%;  
+}
+
+.clear-fix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+#left #right{
+    float: left;
+}
+
+#right{
+    text-align: right;
+}
+
+#left ul li a{
+    padding-left: 45px;
+    text-decoration: none;
+    color: black;
+}
+
+
+#right ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#right li:last-child a{
+    color: white;
+}
+
+#right li a{
+    margin-left: 45px ;
+}
