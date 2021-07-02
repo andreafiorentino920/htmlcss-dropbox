@@ -41,7 +41,12 @@ li{
 
 .btn{
     background-color: #0061ff;
+    color: white;
     padding: 8px 17px;
+    width: max-content;
+}
+
+.btn.white a{
     color: white;
 }
 
@@ -126,11 +131,90 @@ i{
 }
 
 .container-plans{
-    width: 60%;
+    width: 65%;
     margin: auto;
 }
 
 .container-plans > h2{
     margin-bottom: 70px;
     font-size: 30px;
+}
+
+.plans{
+    margin-top: 40px
+}
+
+.col{
+    width: calc(33.33% - 40px) ;
+    height: 1400px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    float: left;
+}
+
+#center{
+    margin: 0 60px;
+}
+
+#left, #center, #right{
+    text-align: center;
+}
+
+.plans .col i{
+    font-size: 20px;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.int{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.content{
+    padding: 35px 30px 0 30px;
+    text-align:initial;
+}
+
+.btn.white{
+    margin-top: 50px;
+    padding: 15px 40px;
+    margin-bottom: 35px;
+}
+
+.line{
+    width: 20%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 45px;
+}
+
+.decoration{
+    margin-bottom: 30px
+}
+
+.content .decoration a{
+    text-decoration: underline;
+    color: blue;
+}
+
+.content h2{
+    margin-bottom: 30px;
+}
+
+.content h3{
+    margin-bottom: 20px;
+}
+
+.content p{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+}
+.point{
+    margin-top: 35px;
+}
+
+.point ul li{
+    margin-bottom: 30px;
+}
+
+.point ul li i{
+    color: blue;
 }
