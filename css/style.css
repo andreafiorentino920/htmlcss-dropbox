@@ -12,6 +12,7 @@ body{
 
 header{
     position: absolute;
+    z-index: 10;
 }
 
 .clear-fix::after{
@@ -56,12 +57,6 @@ h1{
     padding: 25px 20px;
 }
 
-.clear-fix::after{
-    content: " ";
-    display: table;
-    clear: both;
-}
-
 #left #right{
     float: left;
 }
@@ -84,7 +79,7 @@ a{
     margin-left: 45px ;
 }
 
-.container{
+.container-hero{
     background-color: #b4d0e7;
     margin: auto
 }
@@ -93,7 +88,7 @@ a{
     width: 80%;
     margin: auto;
     padding-top: 100px;
-    margin-bottom: 70px;
+    margin-bottom: 200px;
     position: relative;
     bottom: -60px;
 
@@ -128,4 +123,14 @@ i{
 
 .hero p:last-of-type{
     margin-top: 25px;       
+}
+
+.container-plans{
+    width: 60%;
+    margin: auto;
+}
+
+.container-plans > h2{
+    margin-bottom: 70px;
+    font-size: 30px;
 }
