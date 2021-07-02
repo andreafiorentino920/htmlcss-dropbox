@@ -150,9 +150,9 @@ i{
     margin: 0 60px;
 }
 
-#left, #center, #right{
-    text-align: center;
-}
+#left-1, #center-1, #right-1
+{ text-align:center; }
+
 
 i{
     font-size: 20px;
@@ -335,4 +335,14 @@ span{
 
 #row-1{
     margin-bottom: 210px;
+}
+
+.container-title h2{
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+
+.container-title a{
+    text-decoration: underline;
+    color: blue;
 }
