@@ -84,8 +84,7 @@ a{
     margin-left: 45px ;
 }
 
-.page-1{
-    height: 85vh;
+.container{
     background-color: #b4d0e7;
     margin: auto
 }
@@ -93,8 +92,11 @@ a{
 .hero{
     width: 80%;
     margin: auto;
-    padding-top: 110px;
+    padding-top: 100px;
     margin-bottom: 70px;
+    position: relative;
+    bottom: -60px;
+
 }
 
 
