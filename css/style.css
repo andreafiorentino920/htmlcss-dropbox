@@ -232,7 +232,16 @@ span{
     width: 35%;
 }
 
-.col-left, .col-right{
+.col-left, 
+.col-right, 
+.col-hero-2-left,
+.col-hero-2-right,
+.col-1-op,
+.col-2-op, 
+.col-3-op, 
+.col-4-op, 
+.col-5-op, 
+.col-6-op{
     float: left;
 }
 .container-enterprise{
@@ -248,17 +257,13 @@ span{
     padding-bottom: 35px;
 }
 
-.container-plans, .container-hero-2{
+.container-plans, .container-hero-2, .container-operazioni, .container-title{
     width: 65%;
     margin: auto;
 }
 .container-hero-2{
     margin-top: 150px;
     margin-bottom: 120px;
-}
-
-.col-hero-2-left,.col-hero-2-right{
-    float: left;
 }
 
 .col-hero-2-left{
@@ -271,6 +276,14 @@ span{
     margin-top: 50px;
 }
 
+ 
+.col-1-op img,
+.col-1-op img,
+.col-2-op img, 
+.col-3-op img, 
+.col-4-op img, 
+.col-5-op img,
+.col-6-op img,
 .col-hero-2-left img{
     width: 100%;
     height: 100%;
@@ -285,4 +298,41 @@ span{
 .col-hero-2-right p{
     margin-top: 45px;
     margin-bottom: 30px;
+}
+
+.container-operazioni{
+    margin-top: 115px;
+    margin-bottom: 215px;
+}
+
+.container-operazioni > h2{
+    font-size: 45px;
+    margin-bottom: 80px;
+}
+
+.col-1-op,
+.col-3-op, 
+.col-4-op, 
+.col-6-op,
+.col-2-op, 
+.col-5-op{
+    width: calc(33.33% - 75px);
+}
+
+.col-2-op, 
+.col-5-op{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.container-operazioni .clear-fix h2{
+    margin-bottom: 40px;
+}
+
+#row-1{
+    margin-bottom: 130px;
+}
+
+#row-1{
+    margin-bottom: 210px;
 }
