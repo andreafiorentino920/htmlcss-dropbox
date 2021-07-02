@@ -218,3 +218,7 @@ i{
 .point ul li i{
     color: blue;
 }
+
+span{
+    margin-left: 10px;
+}
