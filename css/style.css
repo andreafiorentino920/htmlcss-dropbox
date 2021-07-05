@@ -140,7 +140,7 @@ i{
 }
 
 .col{
-    width: calc(33.33% - 40px) ;
+    width: calc(33.33% - 28px) ;
     height: 1400px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     float: left;
@@ -153,6 +153,9 @@ i{
 #left-1, #center-1, #right-1
 { text-align:center; }
 
+#center-1{
+    margin: 0 40px 0 40px;
+}
 
 i{
     font-size: 20px;
@@ -369,9 +372,27 @@ span{
 
 .col-logo-1, .col-logo-2, .col-logo-3, .col-logo-4{
     width: 50%;
+    height: 300px;
+    text-align: center;
 }
 
 .container-logos img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
+}
+
+.col-logo-1{
+    background-color: #a2d39b;
+}
+
+.col-logo-2{
+    background-color: #61082b;
+}
+
+.col-logo-3{
+    background-color: #0093ce;
+}
+
+.col-logo-4{
+    background-color: #ff1c1c;
 }
