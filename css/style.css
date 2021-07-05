@@ -358,9 +358,7 @@ span{
     margin-bottom: 50px;
 }
 
-.col-img-1, .col-img-3{
-    width: 27.5%;
-}
+
 
 .col-img-2{
     width: 45%;
@@ -368,11 +366,12 @@ span{
 
 .container-logos{
     width: 100%;
+    margin-top: 50px;
 }
 
 .col-logo-1, .col-logo-2, .col-logo-3, .col-logo-4{
-    width: 50%;
-    height: 300px;
+    width: 261px;
+    height: 261px;
     text-align: center;
 }
 
@@ -396,3 +395,13 @@ span{
 .col-logo-4{
     background-color: #ff1c1c;
 }
+
+.col-img-2{
+    background-color: #f5f5f5;
+}
+
+.col-img-2 p{
+    font-weight:600;
+    text-align: center;
+}
+
