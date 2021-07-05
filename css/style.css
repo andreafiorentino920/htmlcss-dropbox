@@ -100,11 +100,15 @@ a{
 }
 
 
-i{
-    margin-top: 40px;
-    font-size: 30px;
+.container-plans i{
+    font-size: 20px;
+    padding: 10px 0 10px 0;
 }
 
+.container-hero i{
+    padding-top: 40px;
+    font-size: 40px;
+}
 .text{
     float: left;
 }
@@ -155,12 +159,6 @@ i{
 
 #center-1{
     margin: 0 40px 0 40px;
-}
-
-i{
-    font-size: 20px;
-    margin: 0;
-    padding: 15px 0;
 }
 
 .int{
@@ -251,7 +249,9 @@ span{
 .col-logo-1, 
 .col-logo-2, 
 .col-logo-3, 
-.col-logo-4{
+.col-logo-4,
+.col-1-dom,
+.col-2-dom{
     float: left;
 }
 .container-enterprise{
@@ -467,3 +467,12 @@ span{
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 40px 0 40px 0;
 }
+
+.col-1-dom{
+    width: 95%;
+}
+
+.col--dom{
+    width: 5%;
+}
+
