@@ -26,7 +26,7 @@ header{
     vertical-align: middle;
 }
 
-li{
+header li{
     display: inline-block;
 }
 
@@ -177,8 +177,8 @@ a{
 }
 
 .line{
-    width: 20%;
-    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100px;
+    border: 1px solid rgb(192,192,192);
     margin-bottom: 45px;
 }
 
@@ -251,7 +251,12 @@ span{
 .col-logo-3, 
 .col-logo-4,
 .col-1-dom,
-.col-2-dom{
+.col-2-dom,
+.menu-1, 
+.menu-2,
+.menu-3, 
+.menu-4, 
+.menu-5{
     float: left;
 }
 .container-enterprise{
@@ -325,6 +330,9 @@ span{
     margin-bottom: 80px;
 }
 
+.point ul, .footer ul {
+    list-style-type: none;
+    }
 .col-1-op,
 .col-3-op, 
 .col-4-op, 
@@ -466,6 +474,7 @@ span{
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 40px 0 40px 0;
+    display: inline-block;
 }
 
 .col-1-dom{
@@ -476,3 +485,46 @@ span{
     width: 5%;
 }
 
+.nav-footer{
+    background-color: black;
+    color: white;
+}
+
+.footer{
+    width: 80%;
+    margin: auto;
+}
+
+.nav-footer h3{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.nav-footer a{
+    color: white;
+}
+
+.nav-footer li{
+    padding-bottom: 15px;
+}
+
+.menu-1, 
+.menu-2,
+.menu-3, 
+.menu-4, 
+.menu-5{
+    width: 20%;
+}
+
+.menu-foot{
+    margin-bottom: 100px
+}
+
+.footer > .line{
+
+}
+
+.language{
+    margin-top: 100px;
+    color: rgb(192,192,192);
+}
